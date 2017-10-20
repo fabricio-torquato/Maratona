@@ -18,6 +18,7 @@ int main()
         f++;
     }
     if (n != 1) factors++;
+    cout<<pow(2,factors)<<endl;
     cout<<((unsigned long long)pow(2,factors)) - (factors + 1)<<endl;
     return 0;
 }
